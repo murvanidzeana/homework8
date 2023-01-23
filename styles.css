@@ -1,0 +1,82 @@
+*{box-sizing: border-box;
+ margin: 0;
+ padding: 0;}
+
+ /* .wrapper{position: relative;}
+
+ .text{background-color:aliceblue;
+      width: 300px;
+      height: 200px;
+     position:absolute;  
+      bottom:10px}
+
+ .sun{ position:absolute;}     */
+
+.sun-img{width:300px;
+         height: 300px;
+         position: absolute;
+         left: 20px;
+         top: 50px;
+         animation-name:sun ;
+         animation-delay: 0.1s;
+         animation-duration:15s ;
+         animation-timing-function:linear ;
+         animation-direction: alternate ;
+         animation-iteration-count:infinite ;}
+
+@keyframes sun { 
+    50%{transform:scale(1.5) ;}  }
+
+
+
+    
+  .earth{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left: 660px;
+    top: 50px;
+    animation-name:earth ;
+    animation-delay: 0.1s;
+    animation-duration:11s ;
+    animation-timing-function:linear ;
+    animation-direction: alternate ;
+    animation-iteration-count:infinite ;  }
+    
+    
+  @keyframes earth {
+    o%{left:opx
+      top:300px;
+         }
+    50%{left: 0px;
+        top: 500px;
+        transform:rotate(360deg)}
+  }  
+
+
+
+ .saturni{width:200px;
+    height: 300px;
+    position: absolute;
+    left: 860px;
+    top: 60px;
+    animation-name:saturni ;
+    animation-delay: 0.1s;
+    animation-duration:11s ;
+    animation-timing-function:linear ;
+    animation-direction: alternate ;
+    animation-iteration-count:infinite ;}
+   
+    
+  @keyframes saturni {
+    o%{left:100px;
+      top:200px;
+           }
+     50%{left: 1000px;
+          top: 300px;
+          transform:rotate(360deg) }
+ }  
+
+
+
+   
